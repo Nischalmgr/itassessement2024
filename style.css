@@ -1,0 +1,189 @@
+body {
+    background-image:url('bg.gif');
+    /* max-width: 1320px;; */
+ 
+    margin:0;
+    padding:0;
+    background-attachment: fixed;
+}
+.border{
+    background-image:url('Untitled-1_01.gif');
+    background-repeat: repeat-x;
+    
+    margin:0;
+    padding-top:0;
+    
+}
+.bordere{
+    background-image:url('assn_03.gif');
+    background-repeat: repeat-x;
+    margin:0;
+}
+.man{
+    float:right;
+    margin-left:2px;
+    margin-right:20px;
+}
+.whatsapp{
+    float: right;
+    margin-left:4x; 
+
+
+}
+.facebook{
+    float:right;
+    margin-left:2px;
+    margin-right:2px
+
+}
+.nounderline{
+    text-decoration:none;
+
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow:4px 4px 7px white;
+  }
+  .permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:30px;
+    margin-left:20px;
+  }
+.back{
+    background-image:url('fig.jpg');
+    height:300px;
+    
+
+}
+.thumbnail {
+    width: 150px; /* Adjust the size of thumbnails as needed */
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .thumbnail:hover {
+    transform: scale(1.2); /* Zoom effect on hover */
+  }
+   
+.container {
+    position: relative;
+    width:100%
+  }
+  
+  .container .wrapper {
+    width: 100vh;
+    height: 75vh;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    margin: 5rem auto;
+    overflow: hidden;
+  }
+  
+  .container .wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+    width:400%;  
+    object-fit: cover;
+    animation: slider 30s ease-in-out infinite alternate;
+  }
+  
+  .container #slider-img-1 {
+    background-image: url(demon.jpg);
+    background-position: center;
+    background-size: contain;
+    
+    
+   
+  }
+  
+  .container #slider-img-2 {
+    background-image: url(bleach.jpg);
+    background-position: center;
+    background-size: contain;
+    
+  }
+  
+  .container #slider-img-3 {
+    background-image: url(naruto.jpg);
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .container #slider-img-4 {
+    background-image: url(cos3.jpeg);
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .container .button-holder .button {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 0.3rem;
+  }
+  
+  .container .button-holder {
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+  }
+  
+  .button:hover {
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  @keyframes slider {
+    0% { transform: translate(0); }
+    10% { transform: translate(-25%); }
+    20% { transform: translate(-50%); }
+    30% { transform: translate(-75%); }
+    40% { transform: translate(-100%); }
+    50% { transform: translate(-100%); }
+    60% { transform: translate(-75%); }
+    70% { transform: translate(-50%); }
+    80% { transform: translate(-25%); }
+    90% { transform: translate(0); }
+    100% { transform: translate(0); }
+  }
+.about{
+  left:100px;
+  font-size: 70px;
+  color:white;
+
+
+
+
+}
+.error { color: red; }
+.aboout{
+
+  background-color:rgb(66, 163, 202);
+  height: 100 px;
+  padding:100px;
+  text-shadow:3px 7px 8px black;
+  
+  
+  
+
+}
+.anim{
+  position: relative;
+  
+  
+}
+.ok{
+  position:relative;
+  text-align:right;
+  bottom:-50px;
+  left:80px;
+
+  color:blue;
+}
