@@ -1,0 +1,195 @@
+<!DOCTYPE  html>
+<html lang="en">
+    <head>
+        <title>anime</title>
+        <meta cahrset="UTF-8>">
+        <meta http-equiv=" X-UA-compatible" content="IE-edge">
+
+        <meta name="viewport" content="widt=device-width" initial-scale="1.0">
+        <link href="style.css" rel="stylesheet">
+
+
+        </head>
+        <body text="#ffffff">
+             
+        <div class="bordere">
+            <table> 
+                <tr>
+                    <th> <a href="index.html" class="nounderline">Home</a> </th>
+                    <th></th>
+                    <th>
+                        <a href="about.html" class="nounderline">About</a>
+
+                        
+                    </th>
+                    <th> </th>
+                    <th>
+                         Products
+
+                    </th>
+                    <th></th>
+                    <th> <a href="contact.html"  class="nounderline">Contact</a>
+                    </th>
+                    <th></th>
+                    <th><a href="blog.html"  class="nounderline">Blog</a>
+
+                    </th><th></th>
+                    <th><a href="member.html" class="nounderline">Membership </a>
+
+                    </th>
+
+                </tr>
+            </table>
+        </div>
+        <form action="/search" method="get" align="right">
+            <input type="search" name="q" placeholder="search">
+            <button type="submit">search </button>
+        </form>
+
+            <table>
+                <tr>
+                    <td>
+                        <img src="zensitu.jpg" alt="zenstu" class="thumbnail" data-large="zensitu.jpg">
+
+                    </td>
+                    <td>
+                        Zinstu cosplay set
+                        <br>npr.4500 <form>
+                            <a href="www.es"><input type="button" value="buy"></a>
+                        </form>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src="astusuki.jpeg" alt="astusuki" class="thumbnail" data-large="astusuki.jpeg">
+
+                    </td>
+                    <td>
+                        Akatsuki itachi cosplay set
+                        <br>
+                        npr. 5000<br>
+                        <a href="https://nepalbank.com.np/"><input type="button" value="buy"></a>
+
+                    
+                    </td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src="nezuko.jpg" alt="nezuko" class="thumbnail" data-large="nezuko.jpg">
+
+                    </td>
+                    <td>
+                        Nezuko cosplay set<br>
+                        npr. 4000<br>
+
+                        <a href=" https://nepalbank.com.np/"><input type="button" value="buy"></a>
+
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src="ichigo.jpg" alt="ichigo" class="thumbnail" data-large="ichigo.jpg">
+
+                    </td>
+                    <td>
+                        Ichigo cosplay set<br>
+                        npr. 4500<br>
+
+                        <a href=" https://nepalbank.com.np/"><input type="button" value="buy"></a>
+
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src="zoro.jpg" alt="zoro" class="thumbnail" data-large="zoro.jpg">
+
+                    </td>
+                    <td>
+                        Zoro cosplay ser<br>
+                        npr. 5000<br>
+
+                        <a href=" https://nepalbank.com.np/"><input type="button" value="buy"></a>
+
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src="ace.jpg" alt="ace" class="thumbnail" data-large="ace.jpg">
+
+                    </td>
+                    <td>
+                        Ace cosplay set<br>
+                        npr. 5000<br>
+                        <a href="https://nepalbank.com.np/"><input type="button" value="buy"></a>
+
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <img src=" gojo.jpg" alt="gojo" class="thumbnail" data-large="gojo.jpg">
+
+                    </td>
+                    <td>
+                        Gojo cosplay set<br>
+                        npr. 3000
+                        <br>
+                        <a href=" https://nepalbank.com.np/"><input type="button" value="buy"></a>
+
+                    </td>
+                    
+                </tr>
+            </table>
+            <div id="large-image-container">
+                <img id="large-image" src="" alt="Large Image">
+              </div>
+              
+              <style>
+                #large-image-container {
+                  display: none;
+                  position: fixed;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  z-index: 9999;
+                }
+              
+                #large-image {
+                  max-width: 80%;
+                  max-height: 80%;
+                }
+              </style>
+              
+              <script>
+                var thumbnails = document.querySelectorAll('.thumbnail');
+                var largeImageContainer = document.getElementById('large-image-container');
+                var largeImage = document.getElementById('large-image');
+              
+                thumbnails.forEach(function(thumbnail) {
+                  thumbnail.addEventListener('click', function() {
+                    var largeImageUrl = this.getAttribute('data-large');
+                    largeImage.setAttribute('src', largeImageUrl);
+                    largeImageContainer.style.display = 'block';
+                  });
+                });
+              
+                largeImageContainer.addEventListener('click', function() {
+                  this.style.display = 'none';
+                });
+              </script>
+
+              
+
+
+             
+
+
+             
+        </body>
+</html>

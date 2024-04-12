@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>User Registration Form</title>
+        <meta charset="UTF-8">
+        <meta htttp-equiv="x-UA-compatible" content="IE-edge">
+
+        <meta name="viewport" content="widtht=device-eidth ", initial scale="1.0">
+        <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body  >
+    <form>
+        <table border="1">
+            <caption align="center">User Registration Form</caption>
+            <tr>
+                <td rowspan="2" align="center">
+                    <label for="first_name">Enter your first name</label>
+                </td>
+                <td rowspan="2" >
+                    <input type="text" id="first_name" name="first_name" value=""  >
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td align="center">
+                    <label for="last_name">Enter your last name</label>
+                </td>
+                <td >
+                    <input type="text" id="last_name" name="last_name" value=""  >
+                </td>
+            </tr>
+            <tr>
+                <td align="center">Password</td>
+                <td  >
+                    <input type="password" id="password" name="password" >
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" align="center">
+                    <label for="reenter_password">Re-enter your password</label>
+                </td>
+                <td rowspan="2"  >
+                    <input type="password" id="reenter_password" name="reenter_password"  >
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td rowspan="2" align="center">
+                    <label for="email">Enter your email</label>
+                </td>
+                <td rowspan="2"  >
+                    <input type="email" id="email" name="email" >
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td align="center" >
+                    <label for="mobile">Enter your mobile number</label>
+                </td>
+                <td>
+                    <input type="tel" id="mobile" name="mobile"  >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                     <input type="text" name="address">
+                </td>
+            </tr>
+            <tr>
+                <td>Enter your gender</td>
+                <td>
+                    <input type="radio" id="female" name="gender" value="female">Female
+                    <input type="radio" id="male" name="gender" value="male">Male
+                    <input type="radio" id="other" name="gender" value="other">Other
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Select your date of birth</label>
+                </td>
+                <td>
+                    <input type="date" id="dob" name="dob">
+                </td>
+            </tr>
+            <tr>
+                <td><label for ="country".  >Select country</label></td>
+                <td><select name="country">
+z                        <option value="nepal">Nepal</option>
+                        <option value="india">India</option>
+                        <option value="china">China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="member" > choose your membership</label></td>
+                <td> <input type ="radio" name="member" value="normal" id="normal"> Normal
+                <input type="radio" name="member" value="pr" id="pr">premium
+            </td>
+            </tr>
+            <tr>
+            <tr>
+                <td> 
+                    <label for="payment"> payment</label>
+                </td>
+                <td>
+                    <input type="radio" name="payment"><a href="df" class="nounderline"> debitcard</a> 
+                    <input type="radio" name="payment"><a href="aa" class="nounderline">creditcard</a>
+                </td>
+            </tr>
+                <td>
+                    <label for="pic">Upload your picture</label>
+                </td>
+                <td>
+                    <input type="file" id="pic" name="pic">
+                    <input type="submit" value="creat user">
+                    <input type="reset">
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+    <a href ="member.html"> exit</a>
+</body>
+</html>
